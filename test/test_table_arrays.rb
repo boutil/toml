@@ -3,7 +3,7 @@ require 'bundler/setup'
 require 'toml'
 require 'minitest/autorun'
 
-class TestParserTableArrays < MiniTest::Test
+class TestParserTableArrays < Minitest::Test
   def setup
     doc = '
 [[fruit]]

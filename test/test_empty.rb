@@ -4,7 +4,7 @@ require 'bundler/setup'
 require 'toml'
 require 'minitest/autorun'
 
-class TestEmpty < MiniTest::Test
+class TestEmpty < Minitest::Test
 
   def setup
     filepath = File.join(File.dirname(__FILE__), "empty.toml")
